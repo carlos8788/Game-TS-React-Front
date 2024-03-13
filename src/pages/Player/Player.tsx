@@ -1,11 +1,11 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 
 interface PlayerProps {
-  children: ReactNode;
+
 }
 
-const Player: React.FC<PlayerProps> = ({ children }) => {
-  return <main>{children}</main>;
+const Player: React.FC<PlayerProps> = () => {
+  return <main>"children"</main>;
 }
 
 export default Player;
